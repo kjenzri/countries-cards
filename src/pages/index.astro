@@ -3,10 +3,10 @@ import "../styles/global.css";
 import characters from "../data.json";
 
 const numberOfCardsByPage = 6;
-const charactersByPage = [];
+const itemsByPage = [];
 for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
   const chunk = characters.slice(i, i + numberOfCardsByPage);
-  charactersByPage.push(chunk);
+  itemsByPage.push(chunk);
 }
 ---
 
@@ -16,25 +16,28 @@ for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Ninjago cards</title>
+    <title>Countries cards</title>
   </head>
   <body>
     <main>
       {
-        charactersByPage.map((characters) => (
+        itemsByPage.map((items) => (
           <section class="a4">
-            {characters.map((character) => (
+            {items.map((item) => (
               <div class="card">
                 <div class="header">
                   <div
                     class="category"
-                    data-category={character.category}
+                    data-category={item.category}
                   ></div>
-                  <h3 class="name">{character.name}</h3>
+                  <h3 class="name">{item.name}</h3>                  
+                </div>
+                <div>
+                  <h4 class="capital">{item.capital}</h4>
                 </div>
                 <img
                   class="image"                  
-                  src={`src/images/characters/${character.image}`}
+                  src={`src/images/characters/${item.image}`}
                   onerror="this.onerror=null;this.src='src/images/default.jpg'"
                 />
 
@@ -47,31 +50,31 @@ for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
                   <ul class="properties_list">
                     <li class="age">
                       <p>
-                        <span class="property">Age : </span>
-                        {character.age} ans
+                        <span class="property">Superficie : </span>
+                        {item.area.toLocaleString('fr-FR')} km²
                       </p>
                     </li>
                     <li class="strength">
                       <p>
-                        <span class="property">Force : </span>
-                        {character.strength}/100
+                        <span class="property">Indice du bonheur : </span>
+                        {Math.round(item.happiness_index * 10)}
                       </p>
                     </li>
                     <li class="intelligence">
                       <p>
-                        <span class="property">Intelligence : </span>
-                        {character.intelligence}/100
+                        <span class="property">Esperance de vie : </span>
+                        { Math.round(item.life_expectancy) }
                       </p>
                     </li>
                     <li class="courage">
                       <p>
-                        <span class="property">Courage : </span>
-                        {character.courage}/100
+                        <span class="property">Nbre d'habitants : </span>
+                        {item.population.toLocaleString('fr-FR')}
                       </p>
                     </li>
                   </ul>
                 </div>
-                <p class="bio">{character.bio}</p>
+                <p class="bio">{item.description}</p>
               </div>
             ))}
           </section>
