@@ -32,12 +32,12 @@ for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
                   ></div>
                   <h3 class="name">{item.name}</h3>                  
                 </div>
-                <div>
+                <div class="sub-header">
                   <h4 class="capital">{item.capital}</h4>
                 </div>
                 <img
                   class="image"                  
-                  src={`src/images/characters/${item.image}`}
+                  src={`src/images/countries/${item.image}`}
                   onerror="this.onerror=null;this.src='src/images/default.jpg'"
                 />
 

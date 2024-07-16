@@ -93,6 +93,8 @@ ul{
     border-top-left-radius: var(--card-header-border-radius);
     border-top-right-radius: var(--card-header-border-radius);
 
+    border-bottom: 2px solid yellow;
+
     background-image: var(--card-header-background);
 }
 
@@ -132,6 +134,22 @@ ul{
 
     font-family: var(--ff-header);
     font-size: var(--fs-100);
+    font-weight: var(--fw-regular);
+
+    margin-block: 0;
+}
+
+.sub-header{
+    position: relative;
+}
+
+.capital{
+    position: absolute;
+
+    left: calc(var(--card-category-size) + var(--card-category-border) * 2);
+
+    font-family: var(--ff-header);
+    font-size: var(--fs-000);
     font-weight: var(--fw-regular);
 
     margin-block: 0;

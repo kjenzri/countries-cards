@@ -1,7 +1,7 @@
 [
   {
     "name": "Afghanistan",
-    "image": "Afghanistan.png",
+    "image": "Afghanistan.jpg",
     "area": 652230,
     "life_expectancy": 60.5,
     "happiness_index": 3.632,
@@ -12,7 +12,7 @@
   },
   {
     "name": "Afrique du Sud",
-    "image": "Afrique_du_Sud.png",
+    "image": "Afrique_du_Sud.jpg",
     "area": 1219090,
     "life_expectancy": 64.1,
     "happiness_index": 4.956,
@@ -23,7 +23,7 @@
   },
   {
     "name": "Algérie",
-    "image": "Algérie.png",
+    "image": "Algérie.jpg",
     "area": 2381741,
     "life_expectancy": 76.5,
     "happiness_index": 5.211,
@@ -34,7 +34,7 @@
   },
   {
     "name": "Andorre",
-    "image": "Andorre.png",
+    "image": "Andorre.jpg",
     "area": 468,
     "life_expectancy": 83.5,
     "happiness_index": 7.125,
@@ -45,7 +45,7 @@
   },
   {
     "name": "Angola",
-    "image": "Angola.png",
+    "image": "Angola.jpg",
     "area": 1246700,
     "life_expectancy": 61.2,
     "happiness_index": 4.759,
@@ -56,7 +56,7 @@
   },
   {
     "name": "Antigua-et-Barbuda",
-    "image": "Antigua-et-Barbuda.png",
+    "image": "Antigua-et-Barbuda.jpg",
     "area": 442,
     "life_expectancy": 76.6,
     "happiness_index": 6.281,
@@ -67,7 +67,7 @@
   },
   {
     "name": "Arménie",
-    "image": "Arménie.png",
+    "image": "Arménie.jpg",
     "area": 29743,
     "life_expectancy": 74.8,
     "happiness_index": 5.454,
@@ -78,7 +78,7 @@
   },
   {
     "name": "Autriche",
-    "image": "Autriche.png",
+    "image": "Autriche.jpg",
     "area": 83879,
     "life_expectancy": 81.5,
     "happiness_index": 7.213,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Azerbaïdjan",
-    "image": "Azerbaïdjan.png",
+    "image": "Azerbaïdjan.jpg",
     "area": 86600,
     "life_expectancy": 73.0,
     "happiness_index": 5.179,
@@ -100,7 +100,7 @@
   },
   {
     "name": "Bahamas",
-    "image": "Bahamas.png",
+    "image": "Bahamas.jpg",
     "area": 13940,
     "life_expectancy": 74.9,
     "happiness_index": 6.217,
@@ -111,7 +111,7 @@
   },
   {
     "name": "Bahreïn",
-    "image": "Bahreïn.png",
+    "image": "Bahreïn.jpg",
     "area": 765,
     "life_expectancy": 77.3,
     "happiness_index": 6.199,
@@ -122,7 +122,7 @@
   },
   {
     "name": "Barbade",
-    "image": "Barbade.png",
+    "image": "Barbade.jpg",
     "area": 430,
     "life_expectancy": 79.1,
     "happiness_index": 6.578,
@@ -133,7 +133,7 @@
   },
   {
     "name": "Belize",
-    "image": "Belize.png",
+    "image": "Belize.jpg",
     "area": 22966,
     "life_expectancy": 74.0,
     "happiness_index": 5.957,
@@ -144,7 +144,7 @@
   },
   {
     "name": "Bhoutan",
-    "image": "Bhoutan.png",
+    "image": "Bhoutan.jpg",
     "area": 38394,
     "life_expectancy": 71.5,
     "happiness_index": 5.082,
@@ -155,7 +155,7 @@
   },
   {
     "name": "Bolivie",
-    "image": "Bolivie.png",
+    "image": "Bolivie.jpg",
     "area": 1098581,
     "life_expectancy": 71.2,
     "happiness_index": 5.747,
@@ -166,7 +166,7 @@
   },
   {
     "name": "Brunéi",
-    "image": "Brunei.png",
+    "image": "Brunei.jpg",
     "area": 5765,
     "life_expectancy": 77.6,
     "happiness_index": 6.084,
@@ -177,7 +177,7 @@
   },
   {
     "name": "Bulgarie",
-    "image": "Bulgarie.png",
+    "image": "Bulgarie.jpg",
     "area": 110993,
     "life_expectancy": 75.0,
     "happiness_index": 5.103,
@@ -188,7 +188,7 @@
   },
   {
     "name": "Burkina Faso",
-    "image": "Burkina_Faso.png",
+    "image": "Burkina_Faso.jpg",
     "area": 272967,
     "life_expectancy": 61.2,
     "happiness_index": 4.769,
@@ -199,7 +199,7 @@
   },
   {
     "name": "Cap-Vert",
-    "image": "Cap-Vert.png",
+    "image": "Cap-Vert.jpg",
     "area": 4033,
     "life_expectancy": 73.8,
     "happiness_index": 5.853,
@@ -210,7 +210,7 @@
   },
   {
     "name": "Chili",
-    "image": "Chili.png",
+    "image": "Chili.jpg",
     "area": 756102,
     "life_expectancy": 80.2,
     "happiness_index": 6.444,
@@ -221,7 +221,7 @@
   },
   {
     "name": "Chypre",
-    "image": "Chypre.png",
+    "image": "Chypre.jpg",
     "area": 9251,
     "life_expectancy": 80.5,
     "happiness_index": 6.223,
@@ -232,7 +232,7 @@
   },
   {
     "name": "Congo",
-    "image": "Congo.png",
+    "image": "Congo.jpg",
     "area": 342000,
     "life_expectancy": 64.4,
     "happiness_index": 4.661,
@@ -243,7 +243,7 @@
   },
   {
     "name": "République démocratique du Congo",
-    "image": "République_démocratique_du_Congo.png",
+    "image": "République_démocratique_du_Congo.jpg",
     "area": 2344858,
     "life_expectancy": 60.0,
     "happiness_index": 3.995,
@@ -254,7 +254,7 @@
   },
   {
     "name": "Corée du Nord",
-    "image": "Corée_du_Nord.png",
+    "image": "Corée_du_Nord.jpg",
     "area": 120538,
     "life_expectancy": 72.1,
     "happiness_index": 4.852,
@@ -265,7 +265,7 @@
   },
   {
     "name": "Costa Rica",
-    "image": "Costa_Rica.png",
+    "image": "Costa_Rica.jpg",
     "area": 51100,
     "life_expectancy": 80.3,
     "happiness_index": 7.167,
@@ -276,7 +276,7 @@
   },
   {
     "name": "Danemark",
-    "image": "Danemark.png",
+    "image": "Danemark.jpg",
     "area": 42933,
     "life_expectancy": 81.2,
     "happiness_index": 7.646,
@@ -287,7 +287,7 @@
   },
   {
     "name": "Égypte",
-    "image": "Égypte.png",
+    "image": "Égypte.jpg",
     "area": 1002450,
     "life_expectancy": 71.8,
     "happiness_index": 4.151,
@@ -298,7 +298,7 @@
   },
   {
     "name": "Érythrée",
-    "image": "Érythrée.png",
+    "image": "Érythrée.jpg",
     "area": 117600,
     "life_expectancy": 67.1,
     "happiness_index": 4.018,
@@ -309,7 +309,7 @@
   },
   {
     "name": "Estonie",
-    "image": "Estonie.png",
+    "image": "Estonie.jpg",
     "area": 45227,
     "life_expectancy": 78.8,
     "happiness_index": 6.190,
@@ -320,7 +320,7 @@
   },
   {
     "name": "Éthiopie",
-    "image": "Éthiopie.png",
+    "image": "Éthiopie.jpg",
     "area": 1104300,
     "life_expectancy": 67.8,
     "happiness_index": 4.573,
@@ -331,7 +331,7 @@
   },
   {
     "name": "Géorgie",
-    "image": "Géorgie.png",
+    "image": "Géorgie.jpg",
     "area": 69700,
     "life_expectancy": 73.6,
     "happiness_index": 5.139,
@@ -342,7 +342,7 @@
   },
   {
     "name": "Guatemala",
-    "image": "Guatemala.png",
+    "image": "Guatemala.jpg",
     "area": 108889,
     "life_expectancy": 74.5,
     "happiness_index": 5.473,
@@ -353,7 +353,7 @@
   },
   {
     "name": "Guinée",
-    "image": "Guinée.png",
+    "image": "Guinée.jpg",
     "area": 245857,
     "life_expectancy": 61.0,
     "happiness_index": 4.986,
@@ -364,7 +364,7 @@
   },
   {
     "name": "Guinée-Bissau",
-    "image": "Guinée-Bissau.png",
+    "image": "Guinée-Bissau.jpg",
     "area": 36125,
     "life_expectancy": 58.8,
     "happiness_index": 4.558,
@@ -375,7 +375,7 @@
   },
   {
     "name": "Guinée équatoriale",
-    "image": "Guinée_équatoriale.png",
+    "image": "Guinée_équatoriale.jpg",
     "area": 28051,
     "life_expectancy": 59.8,
     "happiness_index": 4.227,
@@ -386,7 +386,7 @@
   },
   {
     "name": "Guyana",
-    "image": "Guyana.png",
+    "image": "Guyana.jpg",
     "area": 214969,
     "life_expectancy": 69.6,
     "happiness_index": 5.156,
