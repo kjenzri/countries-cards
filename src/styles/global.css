@@ -24,7 +24,7 @@
     --card-border-radius: 0.5cm;
     --card-border-color: var(--clr-primary-000);
     --card-image-height: 4.6cm;
-    --card-background: linear-gradient(to bottom, hsl(265, 60%, 38%), hsl(233, 35%, 50%), hsl(201, 74%, 88%));
+    --card-background: linear-gradient(to bottom, rgb(214, 141, 57), hsl(49, 31%, 76%), hsl(56, 74%, 88%));
 
     --ff-default: Arial, Helvetica, sans-serif;
     --ff-header: "Libre Baskerville", serif;
@@ -82,7 +82,7 @@ ul{
 
     border: var(--card-border) solid var(--card-border-color);
     border-radius: var(--card-border-radius);    
-    background-image: linear-gradient(to bottom, hsl(265, 60%, 38%), hsl(233, 35%, 50%), hsl(201, 74%, 88%))
+    background-image: var(--card-background)
 }
 
 .header{
@@ -164,7 +164,7 @@ ul{
 }
 
 .properties_list_container{
-    --left-shift: 0.15;
+    --left-shift: 0.1;
     position: relative;
     left: calc(var(--card-width) * var(--left-shift));
     top: -0.13cm;
@@ -213,11 +213,11 @@ ul{
 }
 
 .intelligence{
-    left: calc(var(--base-left) * 2.5);
+    left: calc(var(--base-left) * 2);
 }
 
 .courage{
-    left: calc(var(--base-left) * 3.5);
+    left: calc(var(--base-left) * 2.5);
 }
 
 .bio{

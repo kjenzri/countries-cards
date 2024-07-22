@@ -8,6 +8,33 @@ for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
   const chunk = characters.slice(i, i + numberOfCardsByPage);
   itemsByPage.push(chunk);
 }
+
+function populationHumanReadable(population: number){
+  let factor = 1000.0;
+  let unit = '';
+  if(population >= factor && population < factor * factor){
+    population = population / factor
+    unit = "milles"
+  }
+  else if(population >= factor * factor && population < factor * factor * factor){
+    population = population / (factor * factor)    
+    unit = "millions"
+    console.log('population');
+    
+    console.log(population)
+  }
+  else if(population >= factor * factor * factor && population < factor * factor * factor * factor){
+    population = population / (factor * factor * factor)
+    unit = "milliards"
+  }
+  population = Math.round(population)
+  //population = Math.round((population + Number.EPSILON) * 100) / 100
+  let result = population.toLocaleString('fr-FR');
+  if(unit !== ''){
+    result = `${result} ${unit}`
+  }
+  return result;
+}
 ---
 
 <html lang="en">
@@ -69,7 +96,7 @@ for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
                     <li class="courage">
                       <p>
                         <span class="property">Nbre d'habitants : </span>
-                        {item.population.toLocaleString('fr-FR')}
+                        {populationHumanReadable(item.population)}
                       </p>
                     </li>
                   </ul>
