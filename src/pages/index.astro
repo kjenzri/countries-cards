@@ -1,11 +1,11 @@
 ---
 import "../styles/global.css";
-import characters from "../data.json";
+import allItems from "../data.json";
 
 const numberOfCardsByPage = 6;
 const itemsByPage = [];
-for (let i = 0; i < characters.length; i += numberOfCardsByPage) {
-  const chunk = characters.slice(i, i + numberOfCardsByPage);
+for (let i = 0; i < allItems.length; i += numberOfCardsByPage) {
+  const chunk = allItems.slice(i, i + numberOfCardsByPage);
   itemsByPage.push(chunk);
 }
 
@@ -106,11 +106,11 @@ function populationHumanReadable(population: number){
             ))}
           </section>
           <section class="a4">
-            {characters.map((character) => (
+            {items.map((item) => (
               <div class="card-reverse">                
                 <img
                   class="card-reverse-image"
-                  src="{character.image}"
+                  src={`src/images/countries/${item.image}`}
                   onerror="this.onerror=null;this.src='src/images/card_reverse_background.jpg'"
                 />
               </div>
