@@ -9,7 +9,7 @@
     --a4-border: 1px;
     --a4-border-color: var(--clr-primary-000);
   
-    --card-header-border-radius: 0.25cm;
+    --card-header-border-radius: 0.20cm;
     --card-header-background: linear-gradient(to right, #97d4e7, #6babcc, #4883b1, #335b92, #2a336f);
     --card-header-height: 0.6cm;
     --card-category-size: 0.8cm;
@@ -162,7 +162,7 @@ ul{
 }
 
 .properties_list_container{
-    --left-shift: 0.1;
+    --left-shift: 0.05;
     position: relative;
     left: calc(var(--card-width) * var(--left-shift));
     top: -0.13cm;
