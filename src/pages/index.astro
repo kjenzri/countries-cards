@@ -19,9 +19,7 @@ function populationHumanReadable(population: number){
   else if(population >= factor * factor && population < factor * factor * factor){
     population = population / (factor * factor)    
     unit = "millions"
-    console.log('population');
-    
-    console.log(population)
+
   }
   else if(population >= factor * factor * factor && population < factor * factor * factor * factor){
     population = population / (factor * factor * factor)
@@ -65,15 +63,9 @@ function populationHumanReadable(population: number){
                 <img
                   class="image"                  
                   src={`src/images/countries/${item.image}`}
-                  onerror="this.onerror=null;this.src='src/images/default.jpg'"
                 />
 
                 <div class="properties_list_container">
-                  <img
-                    src="src/images/default.jpg"
-                    alt="background image with main characters"
-                    class="properties_list_background"
-                  />
                   <ul class="properties_list">
                     <li class="age">
                       <p>
@@ -110,8 +102,7 @@ function populationHumanReadable(population: number){
               <div class="card-reverse">                
                 <img
                   class="card-reverse-image"
-                  src={`src/images/countries/${item.image}`}
-                  onerror="this.onerror=null;this.src='src/images/card_reverse_background.jpg'"
+                  src="src/images/back_side.svg"
                 />
               </div>
             ))}

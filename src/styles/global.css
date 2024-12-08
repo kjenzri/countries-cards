@@ -230,8 +230,11 @@ ul{
     height: var(--card-heigth);
     
     border-radius: var(--card-border-radius);
+    border: var(--card-border) solid var(--card-border-color);
 
     overflow: hidden;
+
+    background: var(--card-background);
 }
 
 .card-reverse-image{
