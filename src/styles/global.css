@@ -72,8 +72,6 @@ ul{
   align-items: center;
 
   border: var(--a4-border) solid var(--a4-border-color);
-
-  background-image: var(--card-background);
 }
 
 .card{
